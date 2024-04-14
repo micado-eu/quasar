@@ -1,9 +1,9 @@
-FROM node:10.16.0
+FROM node:14.21.3
 
 ENV NODE_ENV=dev
 
 RUN true \
-    && npm install -g @quasar/cli@1.0.3 \
+    && npm install -g @quasar/cli@1.1.2 \
     && install -d -m 0755 -o node -g node /code \
     && true
  
