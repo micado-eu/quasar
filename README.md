@@ -8,6 +8,10 @@ This image is linked with the dockerhub account and an continuous integration pr
 ### Content
 The image extend the node base image with the quasar framework.
 
+### WARNING
+The image is set to the latest version of the quasar framework compatible with the quasar-cli used in the MICADO project.  Since the VUE.JS version evolved to VUE 3 there is the need to stay on an older version of the quasar framework.
+Consider carefully any update of the quasar framework.
+
 ### Usage
 To use this image run the following command:
 
