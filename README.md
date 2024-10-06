@@ -67,7 +67,7 @@ This workflow automates the Docker build and push process. It triggers on pushes
 To use this image run the following command:
 
 ``
-docker run -it -v <host_pat>:/code micadoproject/quasar:v2.5 bash
+docker run -it -v <host_pat>:/code ghcr.io/micado-eu/quasar:v2.5 bash
 ``
 
 ### Funded by
